@@ -30,4 +30,4 @@ This project uses the following dependencies:
 
 Contributions to the Stripe Comparison App are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
->>>>>>> origin/main
+
