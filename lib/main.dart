@@ -19,7 +19,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        leading: Image.asset(
+            'assets/images/logo.jpg'), // Add this line to display the logo in the app bar
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -60,7 +63,7 @@ class HomeScreen extends StatelessWidget {
               padding: const EdgeInsets.only(
                   left: 8.0), // Add padding for left alignment
               child: Text(
-                'Phone: 123-456-7890',
+                'Phone: 9819369463',
                 style:
                     TextStyle(color: Colors.white), // Set text color to white
               ),
